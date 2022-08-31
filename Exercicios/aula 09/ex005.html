@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <style>
+        body {
+            background-color: rgb(105, 105, 173);
+
+        }
+
+        h1,
+        p {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Aqui está o titulo</h1>
+    <p>Testando o DOM</p>
+    <p id="p2">Aprendendo a usar</p>
+    <div class="msg">
+        <p>Recuperando msg por classe</p>
+    </div>
+    <div class="slt1">
+        Recuperando msg por seletor classe
+    </div>
+    <div id="slt2">
+        Recuperando msg por seletor id
+    </div>
+
+    <script>
+        window.document.write('Adicionando por javaScprit ')
+        var p1 = document.getElementsByTagName('p')[0]; //Recuperando paragrafo por marca
+        window.document.write(p1.innerHTML) //Printando o paragrafo
+        p1.style.color = 'blue' // alterando css
+
+        var p2 = document.getElementById('p2') //Recuperando paragrafo por id
+        p2.style.background = 'blue' // alterando css
+
+        var msg = document.getElementsByClassName('msg')[0] //Recuperando paragrafo por Classe
+        msg.innerText = 'Mudando texto' // alterando css
+
+        var seletor1 = document.querySelector('div.slt1')//Recuperando paragrafo por seletor
+        seletor.style.color = 'black' // alterando css
+
+        var seletor2 = document.querySelector('div#slt2')//Recuperando paragrafo por seletor
+        seletor.style.color = 'black' // alterando css
+    </script>
+</body>
+
+</html>
