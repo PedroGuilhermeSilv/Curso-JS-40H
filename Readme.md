@@ -22,29 +22,6 @@
 - 'Eu estou aprendendo' + var
 - `Eu estou aprendendo ${var}`
 
-## Operadores (Aula 06):
-### Aritméticos.
-+ adição
-- subtação
-* multiplicação
-** potenciação 
-% divisão inteira
-/ divisão
-
-### Lógicos.
-> maior
-< menor
->= maior igual
-<= menor igual
-== igual 
-!= diferente
-
-### Precedência.
- 1. ()
- 2. **
- 3. * / %
- 4. - +
-
 ## Conhecendo DOM (Aula 09).
 ### Árvore DOM
 ![Isso é uma imagem](https://github.com/PedroGuilhermeSilv/Curso-JS-40H/blob/main/Exercicios/img/arvore.png)
