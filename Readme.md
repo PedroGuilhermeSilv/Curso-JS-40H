@@ -47,7 +47,7 @@
 
 ## Conhecendo DOM (Aula 09).
 ### Árvore DOM
-![Isso é uma imagem](https://myoctocat.com/assets/images/base-octocat.svg)
+![Isso é uma imagem](https://github.com/PedroGuilhermeSilv/Curso-JS-40H/blob/main/Exercicios/img/arvore.png)
 
 ### Selecionar por:
 - Marca: getElementsByTagName()
